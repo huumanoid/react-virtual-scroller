@@ -35,7 +35,7 @@
     "tarball": "https://registry.npmjs.org/react-virtual-scroller/-/react-virtual-scroller-2.1.3.tgz"
   },
   "gitHead": "abad1fd4db6c5b32b7565d659c268131bd7a3c2a",
-  "homepage": "https://github.com/zippyui/react-virtual-scroller",
+  "homepage": "https://github.com/huumanoid/react-virtual-scroller",
   "keywords": [
     "react",
     "react-component",
@@ -75,5 +75,5 @@
     "wdist": "webpack --watch --progress --colors --config dist.config.js",
     "wlib": "gulp watch"
   },
-  "version": "2.1.3"
+  "version": "2.1.4"
 }
