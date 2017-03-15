@@ -172,12 +172,12 @@ class Scroller extends Component {
   }
 
   prepareRenderProps(props) {
-    var renderProps = assign({}, props)
+    const {height, width, onMount, preventDefaultHorizontal, loadMask, loading,
+      scrollbarSize, minVerticalScrollStep, scrollTop, scrollLeft,
+      scrollHeight, scrollWidth, onVerticalScroll, onHorizontalScroll,
+      virtualRendering, minScrollStep, minHorizontalScrollStep, ...rest} = props
 
-    delete renderProps.height
-    delete renderProps.width
-
-    return renderProps
+    return {...rest}
   }
 
   handleTouchStart(event) {
